@@ -1,12 +1,12 @@
 {
   "basics": {
-    "name": "Roberto J Sánchez Camacho",
-    "label": "Programmer",
-    "image": "",
+    "name": "Roberto J. Sánchez",
+    "label": "Full stack Develepor",
+    "image": "scr/assets/avatar.png",
     "email": "roberto_scr@outlook.com",
     "phone": "(+34) 646199538",
-    "url": "https://johndoe.com",
-    "summary": "A summary of Roberto Sanchez…",
+    "url": "https://robertosc.dev",
+    "summary": "Soy Roberto J. Sánchez Camacho, desarrollador apasionado por el desarrollo web y las tecnologías emergentes. Disfruto creando soluciones digitales innovadoras que mejoran la experiencia del usuario y optimizan procesos. Actualmente, estoy profundizando en áreas como la inteligencia artificial, los frameworks modernos, las prácticas DevOps y la arquitectura de software escalable.",
     "location": {
       "address": "",
       "postalCode": "",
