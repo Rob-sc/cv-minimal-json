@@ -1,5 +1,6 @@
 ---
-import cvjson from "package.json"
+import cvdata from "src/json/db_es.json"
+
 
 ---
 
@@ -7,7 +8,7 @@ import cvjson from "package.json"
 
     <h2>Hero</h2>
     <img src="public/avatar.png" alt="Avatar del curriculum">
-    <p>{cvjson.name}</p>
+    <p>{cvdata.basics.name}</p>
     
 
 </section>
