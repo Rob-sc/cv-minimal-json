@@ -2,7 +2,7 @@
   "basics": {
     "name": "Roberto J. Sánchez Camacho",
     "label": "Full Stack Developer",
-    "image": "/avatar.png",
+    "image": "public/avatar.png",
     "email": "roberto_scr@outlook.es",
     "phone": "+34 666666666",
     "url": "",
