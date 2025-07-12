@@ -1,17 +1,17 @@
 ---
 import {basics} from "@cv/db_es.json"
+import { Image } from 'astro:assets';
 
-const {name, label, summary,email, image, location} = basics
+const {name, label, email, image, location} = basics
 
 ---
 
 <section>
 
     <h2>Hero</h2>
-    <img src={image} alt="Avatar del curriculum">
+    <Image src={image} alt="Un pájaro." width="150" height="150"  loading="eager" />
     <p>{name}</p>
     <p>{label}</p>
-    <p>{summary}</p>
     <p>{email}</p>
     <p>{location.city}, {location.region}</p>
 
