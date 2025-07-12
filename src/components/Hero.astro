@@ -1,18 +1,18 @@
 ---
-import cvdata from "@cv/db_es.json"
+import {basics} from "@cv/db_es.json"
 
-const hero = cvdata.basics
+const {name, label, summary,email, image} = basics
 
 ---
 
 <section>
 
     <h2>Hero</h2>
-    <img src={hero.image} alt="Avatar del curriculum">
-    <p>{hero.name}</p>
-    <p>{hero.label}</p>
-    <p>{hero.summary}</p>
-    <p>{hero.email}</p>
+    <img src={image} alt="Avatar del curriculum">
+    <p>{name}</p>
+    <p>{label}</p>
+    <p>{summary}</p>
+    <p>{email}</p>
     
 
 </section>
