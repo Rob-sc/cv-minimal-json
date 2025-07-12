@@ -1,7 +1,7 @@
 ---
 import {basics} from "@cv/db_es.json"
 
-const {name, label, summary,email, image} = basics
+const {name, label, summary,email, image, location} = basics
 
 ---
 
@@ -13,6 +13,6 @@ const {name, label, summary,email, image} = basics
     <p>{label}</p>
     <p>{summary}</p>
     <p>{email}</p>
-    
+    <p>{location.city}, {location.region}</p>
 
 </section>
