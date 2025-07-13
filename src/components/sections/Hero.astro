@@ -2,7 +2,13 @@
 import {basics} from "@cv/db_es.json"
 import { Image } from 'astro:assets';
 
-const {name, label, email, image, location} = basics
+const {name, label, email, image, location, profiles} = basics
+
+const perfiles =  []
+
+profiles.forEach(element => {
+    perfiles[] = element.network
+});
 
 ---
 
@@ -14,5 +20,6 @@ const {name, label, email, image, location} = basics
     <p>{label}</p>
     <p>{email}</p>
     <p>{location.city}, {location.region}</p>
+
 
 </section>
