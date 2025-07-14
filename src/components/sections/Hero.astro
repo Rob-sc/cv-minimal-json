@@ -4,11 +4,7 @@ import { Image } from 'astro:assets';
 
 const {name, label, email, image, location, profiles} = basics
 
-const perfiles =  []
-
-profiles.forEach(element => {
-    perfiles.push(element.network);
-});
+const perfiles = profiles.map(p => p.network);
 
 ---
 
@@ -19,7 +15,8 @@ profiles.forEach(element => {
     <p>{name}</p>
     <p>{label}</p>
     <p>{email}</p>
-    <p>{perfiles}</p>
+    <p>{perfiles.join(' ')}</p>
+
     <p>{location.city}, {location.region}</p>
 
 
