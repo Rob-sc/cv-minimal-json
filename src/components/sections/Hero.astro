@@ -7,7 +7,7 @@ const {name, label, email, image, location, profiles} = basics
 const perfiles =  []
 
 profiles.forEach(element => {
-    perfiles.push(element.username);
+    perfiles.push(element.network);
 });
 
 ---
@@ -19,6 +19,7 @@ profiles.forEach(element => {
     <p>{name}</p>
     <p>{label}</p>
     <p>{email}</p>
+    <p>{perfiles}</p>
     <p>{location.city}, {location.region}</p>
 
 
