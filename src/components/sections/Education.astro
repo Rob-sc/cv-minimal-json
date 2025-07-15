@@ -8,6 +8,15 @@ import {languages} from "@cv/db_es.json"
 
     <h2>Education</h2>
         {
+            education.map(({institution, area, startDate, endDate}) =>
+                <p>{institution}</p>
+                <p>{area}</p>
+                <p>{startDate}</p>
+                <p>{endDate}</p>
+            )
+        }
+
+        {
             languages.map(({language}) =>
                 <p>{language}</p>
             )
