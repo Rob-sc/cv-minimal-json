@@ -8,12 +8,14 @@ import {work} from "@cv/db_es.json"
 
     <h2>Experience</h2>
         {
-            work.map(({name,position,startDate,endDate,summary}) =>
+            work.map(({name,position,startDate,endDate,summary,keywords,highlights}) =>
                 <p>{name}</p>
                 <p>{position}</p>
                 <p>{startDate}</p>
                 <p>{endDate}</p>
                 <p>{summary}</p>
+                <p>{keywords}</p>
+                <p>{highlights}</p>
 
             )
         }
