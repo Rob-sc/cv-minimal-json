@@ -1,10 +1,16 @@
 ---
 import {education} from "@cv/db_es.json"
+import {languages} from "@cv/db_es.json"
 
 ---
 
 <section>
 
     <h2>Education</h2>
+        {
+            languages.map(({language}) =>
+                <p>{language}</p>
+            )
+        }
 
 </section>
