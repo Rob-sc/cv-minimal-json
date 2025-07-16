@@ -47,11 +47,11 @@
       ]
     },
     {
-      "name": "EDB - Exportado Database",
+      "name": "EDB - Exportadora Database",
       "position": "Full stack Developer",
       "startDate": "2023-03-01",
       "endDate": "2024-05-31",
-      "summary": "Desarrollé una plataforma de noticias geolocalizadas y una API para consumir la información. Escalé los servicios para soportar la carga de más de cientos de miles de peticiones al día. Recorté los tiempos de entrega y despliegues a producción a la mitad. Colaboré con Mozilla y Telefónica para desarrollar la primera app para televisores con FirefoxOS.",
+      "summary": "",
       "highlights": [
         "Started the company"
       ]
