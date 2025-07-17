@@ -1,10 +1,11 @@
 ---
+import Section from "@/components/section.astro"
 import {work} from "@cv/db_es.json"
 
 ---
 
 
-<section>
+<Section title="Expirience">
         {
             work.map(({name,position,startDate,endDate,summary,keywords,highlights}) =>
                 <p>{name}</p>
@@ -17,4 +18,4 @@ import {work} from "@cv/db_es.json"
             )
         }
 
-</section>
+</Section>

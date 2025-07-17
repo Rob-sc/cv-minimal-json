@@ -1,4 +1,5 @@
 ---
+import Section from "@/components/section.astro"
 import {basics} from "@cv/db_es.json"
 import { Image } from 'astro:assets';
 
@@ -8,7 +9,7 @@ const perfiles = profiles.map(p => p.network);
 
 ---
 
-<section>
+<Section title="Hero">
     <Image src={image} alt="Un pájaro." width="150" height="150"  loading="eager" />
     <p>{name}</p>
     <p>{label}</p>
@@ -17,4 +18,4 @@ const perfiles = profiles.map(p => p.network);
     <p>{location.city}, {location.region}</p>
 
 
-</section>
+</Section>

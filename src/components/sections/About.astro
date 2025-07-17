@@ -1,9 +1,12 @@
 ---
+import Section from "@/components/section.astro"
 import {basics} from "@cv/db_es.json"
+
+
 const summary = basics.summary
 
 ---
 
-<section>
+<Section title="About">
     <p> {summary}</p>
-</section>
+</Section>

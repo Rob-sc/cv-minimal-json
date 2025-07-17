@@ -1,15 +1,16 @@
 ---
+import Section from "@/components/section.astro"
 import {skills} from "@cv/db_es.json"
 
 const perfiles = skills.map(s => s.name);
 
 ---
 
-<section>
+<Section title="Skills">
         <h3>
             Hardskills
         </h3>
             {perfiles.join(", ")}
 
 
-</section>
+</Section>
