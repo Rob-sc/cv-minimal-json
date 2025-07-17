@@ -11,8 +11,7 @@ import {work} from "@cv/db_es.json"
             work.map(({name,position,startDate,endDate,summary,keywords,highlights}) =>
                 <p>{name}</p>
                 <p>{position}</p>
-                <p>{startDate}</p>
-                <p>{endDate}</p>
+                <p>{startDate} - {endDate}</p>
                 <p>{summary}</p>
                 <p>{keywords}</p>
                 <p>{highlights}</p>
