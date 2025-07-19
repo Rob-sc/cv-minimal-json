@@ -9,17 +9,18 @@ const {title} = Astro.props
     <header>
         { title && <h2>{title}</h2>}
     </header>
-    <slot />
+    <article> 
+        <slot />
+    </article>
 </section>
 
 <style>
 	section {
-        margin: 2rem 0;
-        padding: 2rem;
+
     }
 
-    section h2 {
-        font-size: 32px;
-        border-bottom: 2px solid #222;
+    article{
+
     }
+
 </style>

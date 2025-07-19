@@ -10,18 +10,26 @@ const perfiles = profiles.map(p => p.network);
 ---
 
 <Section title="Hero">
-    <Image src={image} alt="Un pájaro." width="150" height="150" class="imagen" loading="eager"/>
-    <p>{name}</p>
-    <p>{label}</p>
-    <p>{email}</p>
-    <p>{perfiles.join(' ')}</p>
-    <p>{location.city}, {location.region}</p>
+        <div class="container">
+            <p>{name}<br>
+                {label}<br>
+                {email}<br>
+                {perfiles.join(' ')}
+                {location.city}, {location.region}</p>
+            <figure>
+                <Image src={image} alt="Un pájaro." width="150" height="150" class="imagen" loading="eager"/>
+            </figure>
+        </div>
 
 
 </Section>
 
 <style>
-    .imagen{
-        border-radius: 15px;
+    .container{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        gap: 1rem;
     }
 </style>
