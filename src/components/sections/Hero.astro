@@ -10,7 +10,7 @@ const perfiles = profiles.map(p => p.network);
 ---
 
 <Section title="Hero">
-    <Image src={image} alt="Un pájaro." width="150" height="150"  loading="eager" />
+    <Image src={image} alt="Un pájaro." width="150" height="150" class="imagen" loading="eager"/>
     <p>{name}</p>
     <p>{label}</p>
     <p>{email}</p>
@@ -19,3 +19,9 @@ const perfiles = profiles.map(p => p.network);
 
 
 </Section>
+
+<style>
+    .imagen{
+        border-radius: 15px;
+    }
+</style>

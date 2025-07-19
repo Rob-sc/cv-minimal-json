@@ -1,14 +1,9 @@
 ---
+import Section from "@/components/section.astro"
 import {projects} from "@cv/db_es.json"
-
-
-
+const proyectos = projects.map(p => p.name);
 ---
 
-<section>
-
-    <h2>Projects</h2>
-
-    <p> Ejemplo 91</p>
-
-</section>
+<Section title="proyectos">
+    {proyectos.join(", ")}
+</Section>
