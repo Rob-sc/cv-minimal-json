@@ -4,7 +4,7 @@
     "label": "Full Stack Developer",
     "image": "https://avatars.githubusercontent.com/u/158120344?v=4",
     "email": "roberto_scr@outlook.es",
-    "phone": "+34 666111666",
+    "phone": "+34 666666666",
     "url": "",
     "summary": "Soy Roberto J. Sánchez Camacho, desarrollador apasionado por el desarrollo web y las tecnologías emergentes. Disfruto creando soluciones digitales innovadoras que mejoran la experiencia del usuario y optimizan procesos. Actualmente, estoy profundizando en áreas como la inteligencia artificial, los frameworks modernos, las prácticas DevOps y la arquitectura de software escalable..",
     "location": {
@@ -38,20 +38,20 @@
       "position": "Full stack Developer and IA developer",
       "startDate": "2024-06-01",
       "endDate": "Actualmente",
-      "summary": "Automatización de servicios y desarrollo de aplicaciones para solucionar distintas necesidades de los clientes. Desarrollar plataformas para la gestión de usuarios, tickets y stock, desarrollar plataforma de monitorización para equipos y servicios.",
+      "summary": "Automatización de servicios y desarrollo de aplicaciones para solucionar distintas necesidades de los clientes.",
       "keywords": [
-        "Node.js","React","Angular","OpenAI","API REST","Flask","Python"
+        "Node.js","OpenAI","API REST","Flask","Python"
       ],
       "highlights": [
         "Conseguí reducir el tiempo de varias gestiones diarias de 3 horas a 20 minutos."
       ]
     },
     {
-      "name": "EDB - Exportadora Database",
+      "name": "EDB - Exportado Database",
       "position": "Full stack Developer",
       "startDate": "2023-03-01",
       "endDate": "2024-05-31",
-      "summary": "",
+      "summary": "Desarrollé una plataforma de noticias geolocalizadas y una API para consumir la información. Escalé los servicios para soportar la carga de más de cientos de miles de peticiones al día. Recorté los tiempos de entrega y despliegues a producción a la mitad. Colaboré con Mozilla y Telefónica para desarrollar la primera app para televisores con FirefoxOS.",
       "highlights": [
         "Started the company"
       ]
@@ -68,7 +68,8 @@
       "Awarded 'Volunteer of the Month'"
     ]
   }],
-  "education": [{
+  "education": [
+    {
     "institution": "Universidad - Florida Universitaria",
     "url": "https://www.floridauniversitaria.es/",
     "area": "DAW - Técnico Superior en Desarrollo de Aplicaciones Web",
@@ -76,13 +77,13 @@
     "startDate": "2018-09-01",
     "endDate": "2020-06-01"
   },
-  {
-    "institution": "Colegio Esclavas de Maria",
-    "url": "https://colegioesclavasdemaria.org/",
-    "area": "TSMR - Técnico en Sistemas Microinformáticos y Redes",
-    "studyType": "Grado Superior",
-    "startDate": "2015-09-01",
-    "endDate": "2017-06-01"
+    {
+      "institution": "Colegio Esclavas de Maria",
+      "url": "https://colegioesclavasdemaria.org/",
+      "area": "TSMR - Técnico en Sistemas Microinformáticos y Redes",
+      "studyType": "Grado Superior",
+      "startDate": "2015-09-01",
+      "endDate": "2017-06-01"
   }],
   "awards": [{
     "title": "Award",
