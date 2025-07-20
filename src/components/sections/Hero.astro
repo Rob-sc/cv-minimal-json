@@ -9,27 +9,30 @@ const perfiles = profiles.map(p => p.network);
 
 ---
 
-<Section title="Hero">
+<Section>
+        <h1>{name}</h1>
         <div class="container">
-            <p>{name}<br>
+            <p>
                 {label}<br>
                 {email}<br>
+                {location.city}, {location.region}<br>
                 {perfiles.join(' ')}
-                {location.city}, {location.region}</p>
+            </p>
             <figure>
                 <Image src={image} alt="Un pájaro." width="150" height="150" class="imagen" loading="eager"/>
             </figure>
         </div>
 
-
 </Section>
 
 <style>
+    h1{
+        margin: 0;
+        font-size: 32px;
+    }
     .container{
         display: flex;
         flex-direction: row;
-        align-items: center;
         justify-content: space-between;
-        gap: 1rem;
     }
 </style>
