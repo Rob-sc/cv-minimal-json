@@ -12,12 +12,15 @@ const perfiles = profiles.map(p => p.network);
 <Section>
         <h1>{name}</h1>
         <div class="container">
-            <p>
-                {label}<br>
-                {email}<br>
-                {location.city}, {location.region}<br>
-                {perfiles.join(' ')}
-            </p>
+            <div class="user_data">
+                <p>
+                    {label}<br>
+                    {location.city}, {location.region}<br>
+                </p>
+                    <span>
+                        {email} {perfiles.join(' ')}
+                    </span>
+            </div>
             <figure>
                 <Image src={image} alt="Un pájaro." width="150" height="150" class="imagen" loading="eager"/>
             </figure>
@@ -27,8 +30,9 @@ const perfiles = profiles.map(p => p.network);
 
 <style>
     h1{
+        color: #000;
         margin: 0;
-        font-size: 32px;
+        font-size: 28px;
     }
     .container{
         display: flex;
