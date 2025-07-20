@@ -1,21 +1,69 @@
 ---
 import Section from "@/components/section.astro"
 import {work} from "@cv/db_es.json"
+import {skills} from "@cv/db_es.json"
 
 ---
 
 
 <Section title="Expirience">
+
         {
             work.map(({name,position,startDate,endDate,summary,keywords,highlights}) =>
-                <p>{name}</p>
-                <p>{position}</p>
-                <p>{startDate} - {endDate}</p>
+                    <span>
+                        <h4>{name}</h4>
+                        <ul>
+                            <li>Node.js</li>
+                            <li>OpenAI</li>
+                            <li>API REST</li>
+                            <li>Flask</li>
+                            <li>Python </li>
+                        </ul>
+                        <p>{startDate.split("-")[0]} - {endDate}</p>
+                    </span>
+                <h5>{position}</h5>
                 <p>{summary}</p>
-                <p>{keywords}</p>
                 <p>{highlights}</p>
 
             )
         }
 
 </Section>
+
+<style>
+    *{
+        margin: 0px;
+        padding: 0px;
+    }
+    span {
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+    }
+
+    ul {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.5rem;
+        margin: 1rem 0;
+    }
+
+    ul li{
+        background-color: rgba(214, 214, 214, 0.781);
+        list-style: none;
+        margin: 0px 5px;
+        padding: 3px;
+        border-radius: 5px;
+        font-size: 12px;
+        font-weight: 600;
+    }
+
+    h4{
+        font-size: 16px;
+    }
+
+    h5{
+        font-size: 14px;
+    }
+
+</style>
