@@ -4,9 +4,9 @@
     "label": "Full Stack Developer",
     "image": "https://avatars.githubusercontent.com/u/158120344?v=4",
     "email": "roberto_scr@outlook.es",
-    "phone": "+34 666666666",
+    "phone": "+34 666111666",
     "url": "",
-    "summary": "Desarrollador apasionado por el desarrollo web y las tecnologías emergentes. Disfruto creando soluciones digitales innovadoras que mejoran la experiencia del usuario y optimizan procesos. Actualmente, estoy profundizando en áreas como la inteligencia artificial, los frameworks modernos, las prácticas DevOps y la arquitectura de software escalable.",
+    "summary": "Soy Roberto J. Sánchez Camacho, desarrollador apasionado por el desarrollo web y las tecnologías emergentes. Disfruto creando soluciones digitales innovadoras que mejoran la experiencia del usuario y optimizan procesos. Actualmente, estoy profundizando en áreas como la inteligencia artificial, los frameworks modernos, las prácticas DevOps y la arquitectura de software escalable..",
     "location": {
       "url_maps": "",
       "postalCode": "46017",
@@ -38,22 +38,22 @@
       "position": "Full stack Developer and IA developer",
       "startDate": "2024-06-01",
       "endDate": "Actualmente",
-      "summary": "Automatización de servicios y desarrollo de aplicaciones para solucionar distintas necesidades de los clientes.",
+      "summary": "Automatización de servicios y desarrollo de aplicaciones para solucionar distintas necesidades de los clientes. Desarrollar plataformas para la gestión de usuarios, tickets y stock, desarrollar plataforma de monitorización para equipos y servicios.",
       "keywords": [
-        "Node.js","OpenAI","API REST","Flask","Python"
+        "Node.js","React","Angular","OpenAI","API REST","Flask","Python"
       ],
       "highlights": [
-        "Desarrollo y mantenimiento de aplicaciones para la gestión de grandes volumenes de datos.","Generar Chatbots para atención al cliente, análisis predictivo de incidencias y costes."
+        "Conseguí reducir el tiempo de varias gestiones diarias de 3 horas a 20 minutos."
       ]
     },
     {
-      "name": "EDB - Exportado Database",
+      "name": "EDB - Exportadora Database",
       "position": "Full stack Developer",
       "startDate": "2023-03-01",
       "endDate": "2024-05-31",
-      "summary": "Crear, perfeccionar y mantener aplicaciones web y multiplataforma que resuelvan desafíos complejos y automaticen tareas, contribuyendo a una mayor eficiencia operativa y optimización de procesos",
+      "summary": "",
       "highlights": [
-        "Desarrollo de aplicaciones para la generación de informes técnicos.", "Presentaciones, gestión de proyectos, aportar ideas y minimizar los errores."
+        "Started the company"
       ]
     }
   ],
@@ -68,8 +68,7 @@
       "Awarded 'Volunteer of the Month'"
     ]
   }],
-  "education": [
-    {
+  "education": [{
     "institution": "Universidad - Florida Universitaria",
     "url": "https://www.floridauniversitaria.es/",
     "area": "DAW - Técnico Superior en Desarrollo de Aplicaciones Web",
@@ -77,13 +76,13 @@
     "startDate": "2018-09-01",
     "endDate": "2020-06-01"
   },
-    {
-      "institution": "Colegio Esclavas de Maria",
-      "url": "https://colegioesclavasdemaria.org/",
-      "area": "TSMR - Técnico en Sistemas Microinformáticos y Redes",
-      "studyType": "Grado Superior",
-      "startDate": "2015-09-01",
-      "endDate": "2017-06-01"
+  {
+    "institution": "Colegio Esclavas de Maria",
+    "url": "https://colegioesclavasdemaria.org/",
+    "area": "TSMR - Técnico en Sistemas Microinformáticos y Redes",
+    "studyType": "Grado Superior",
+    "startDate": "2015-09-01",
+    "endDate": "2017-06-01"
   }],
   "awards": [{
     "title": "Award",
@@ -181,20 +180,6 @@
       "keywords": [
         "Desarrollo Web", "Frontend", "JavaScript Library", "UI"
       ]
-    },
-    {
-      "name": "Angular",
-      "level": "Avanzado",
-      "keywords": [
-        "Desarrollo Web", "Frontend", "JavaScript Library", "UI"
-      ]
-    },
-      {
-      "name": "Astro",
-      "level": "Avanzado",
-      "keywords": [
-        "Desarrollo Web", "Frontend", "JavaScript Library", "UI"
-      ]
     }
   ],
   "languages": [
@@ -211,38 +196,13 @@
       "fluency": "Advanced"
     }
   ],
-  "Hobbies": [{
-    "name": "Programar",
+  "interests": [{
+    "name": "Wildlife",
     "keywords": [
-      "Developer",
-      "Frontend",
-      "Backend"
+      "Ferrets",
+      "Unicorns"
     ]
-  },
-  {
-    "name": "Probrar distribuciones de Linux",
-    "keywords": [
-      "Linux",
-      "Arch",
-      "Ubuntu"
-    ]
-  },
-  {
-    "name": "Tocar la guitarra",
-    "keywords": [
-      "Guitar",
-      "Music"
-    ]
-  },
-  {
-    "name": "Tocar la violin",
-    "keywords": [
-      "Violin",
-      "Music"
-    ]
-  }
-  
-],
+  }],
   "references": [{
     "name": "Jane Doe",
     "reference": "Reference…"
