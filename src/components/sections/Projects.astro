@@ -1,9 +1,25 @@
 ---
 import Section from "@/components/section.astro"
 import {projects} from "@cv/db_es.json"
-const proyectos = projects.map(p => p.name);
+
 ---
 
 <Section title="proyectos">
-    {proyectos.join(", ")}
+    {projects.map(({name, description, skills, url}) =>
+            <div class="proyecto">
+                <a href={url} style="text-decoration: none; color: inherit;">
+                <header>
+                    <h4>{name}</h4>
+                </header>
+                <p>{description}</p>
+                </a>
+                <ul class="skills">
+                <li>Javascript</li>
+                <li>Json</li>
+                <li>CSS3</li>
+                <li>Html5</li>
+                </ul>
+            </div>
+        )
+    }
 </Section>
