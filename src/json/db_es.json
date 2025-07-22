@@ -6,7 +6,7 @@
     "email": "roberto_scr@outlook.es",
     "phone": "+34 666111666",
     "url": "",
-    "summary": "Soy Roberto J. Sánchez Camacho, desarrollador apasionado por el desarrollo web y las tecnologías emergentes. Disfruto creando soluciones digitales innovadoras que mejoran la experiencia del usuario y optimizan procesos. Actualmente, estoy profundizando en áreas como la inteligencia artificial, los frameworks modernos, las prácticas DevOps y la arquitectura de software escalable..",
+    "summary": "Soy Roberto J. Sánchez Camacho, desarrollador apasionado por el desarrollo web y las tecnologías emergentes. Disfruto creando soluciones digitales innovadoras que mejoran la experiencia del usuario y optimizan procesos. Actualmente, estoy profundizando en áreas como la inteligencia artificial, los frameworks modernos, las prácticas DevOps y la arquitectura de software escalable.",
     "location": {
       "url_maps": "",
       "postalCode": "46017",
@@ -36,7 +36,7 @@
     {
       "name": "Atos Iberia",
       "position": "Full stack Developer and IA developer",
-      "startDate": "2024-06-01",
+      "startDate": "2024",
       "endDate": "Actualmente",
       "summary": "Automatización de servicios y desarrollo de aplicaciones para solucionar distintas necesidades de los clientes. Desarrollar plataformas para la gestión de usuarios, tickets y stock, desarrollar plataforma de monitorización para equipos y servicios.",
       "keywords": [
@@ -49,11 +49,11 @@
     {
       "name": "EDB - Exportadora Database",
       "position": "Full stack Developer",
-      "startDate": "2023-03-01",
-      "endDate": "2024-05-31",
-      "summary": "",
+      "startDate": "2023",
+      "endDate": "2024",
+      "summary": "Crear, perfeccionar y mantener aplicaciones web y multiplataforma que resuelvan desafíos complejos y automaticen tareas, contribuyendo a una mayor eficiencia operativa y optimización de procesos.",
       "highlights": [
-        "Started the company"
+        ""
       ]
     }
   ],
