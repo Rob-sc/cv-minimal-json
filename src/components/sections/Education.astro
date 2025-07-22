@@ -18,9 +18,10 @@ import {languages} from "@cv/db_es.json"
             )
         }
         
+        <h3>Idiomas</h3>
         {
-            languages.map(({language}) =>
-                <p>{language}</p>
+            languages.map(({language,fluency}) =>
+                <p>{language} - {fluency}</p>
             )
         }
 
@@ -62,6 +63,9 @@ import {languages} from "@cv/db_es.json"
 
     h4{
         font-size: 16px;
+    }
+    h3{
+        margin: 10px 0px
     }
 
     h5{
