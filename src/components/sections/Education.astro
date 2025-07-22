@@ -8,9 +8,13 @@ import {languages} from "@cv/db_es.json"
 <Section title="Education">
         {
             education.map(({institution, area, startDate, endDate}) =>
-                <p>{institution}</p>
-                <p>{area}</p>
-                <p>{startDate} - {endDate}</p>
+                <div>
+                    <span>
+                        <h4>{institution}</h4>
+                        <p>{startDate.split("-")[0]} - {endDate}</p>
+                    </span>
+                    <p>{area}</p>
+                </div>
             )
         }
         
@@ -21,3 +25,47 @@ import {languages} from "@cv/db_es.json"
         }
 
 </Section>
+
+
+
+<style>
+    *{
+        margin: 0px;
+        padding: 0px;
+    }
+
+    div{
+        margin-bottom: 30px;
+    }
+    span {
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+    }
+
+    ul {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.5rem;
+        margin: 1rem 0;
+    }
+
+    ul li{
+        background-color: rgba(214, 214, 214, 0.781);
+        list-style: none;
+        margin: 0px 5px;
+        padding: 3px;
+        border-radius: 5px;
+        font-size: 12px;
+        font-weight: 600;
+    }
+
+    h4{
+        font-size: 16px;
+    }
+
+    h5{
+        font-size: 14px;
+    }
+
+</style>
