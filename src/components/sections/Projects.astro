@@ -13,12 +13,10 @@ import {projects} from "@cv/db_es.json"
                 </header>
                 <p>{description}</p>
                 </a>
-                <ul class="skills">
-                <li>Javascript</li>
-                <li>Json</li>
-                <li>CSS3</li>
-                <li>Html5</li>
-                </ul>
+                {skills.map((s)=>
+                    <p>{s}</p>
+                )
+                }
             </div>
         )
     }
