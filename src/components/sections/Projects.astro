@@ -4,20 +4,69 @@ import {projects} from "@cv/db_es.json"
 
 ---
 
-<Section title="proyectos">
-    {projects.map(({name, description, skills, url}) =>
-            <div class="proyecto">
-                <a href={url} style="text-decoration: none; color: inherit;">
-                <header>
-                    <h4>{name}</h4>
-                </header>
-                <p>{description}</p>
-                </a>
-                {skills.map((s)=>
-                    <p>{s}</p>
-                )
-                }
-            </div>
-        )
-    }
+<Section title="Proyectos">
+    <div class="projects">
+        {projects.map(({name, description, skills, url}) =>
+                <div class="project">
+                    <a href={url} style="text-decoration: none; color: inherit;">
+                    <header>
+                        <h4>{name}</h4>
+                    </header>
+                    <p>{description}</p>
+                    </a>
+                    <ul>
+                        {skills.map((s)=>
+                            <li>{s}</li>
+                        )
+                        }
+
+                    </ul>
+                </div>
+            )
+        }
+
+    </div>
 </Section>
+
+<style>
+    .projects{
+        display: flex;
+        flex-wrap: wrap;
+        width: auto;
+        gap: 10px;
+    }
+    
+    .project{
+        border: solid 1px gray;
+        border-radius: 10px;
+        padding: 5px;
+        max-width: 30%;
+    }
+
+    ul {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.5rem;
+        margin: 1rem 0;
+    }
+
+    ul li{
+        background-color: rgba(214, 214, 214, 0.781);
+        list-style: none;
+        margin: 0px 5px;
+        padding: 3px;
+        border-radius: 5px;
+        font-size: 12px;
+        font-weight: 600;
+    }
+
+    .project:hover{
+        background-color: rgba(255, 255, 255, 0.13);
+        text-decoration:underline
+    }
+
+    .project h4,p{
+        margin-left: 10px;
+    }
+    
+</style>
