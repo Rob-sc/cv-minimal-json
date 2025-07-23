@@ -212,6 +212,7 @@
       "name": "Simple CV json",
       "isActive": true,
       "description": "Historia interactiva con retos de programación para viajar a Marte",
+      "skills": ["JavaScript", "JSON", "CSS3","Astro"],
       "highlights": [
         "Elige tu propia aventura",
         "En desarrollo"
@@ -219,14 +220,10 @@
       "url": "https://mars.codes"
     },
     {
-      "name": "AdventJS",
+      "name": "Flashcards",
       "isActive": true,
       "description": "Retos de programación en JavaScript para cada día de diciembre hasta Navidad",
-      "highlights": [
-        "+1 millón de visitas",
-        "Multidioma",
-        "JavaScript & TypeScript"
-      ],
+      "skills": ["JavaScript", "JSON", "CSS3","React"],
       "url": "https://adventjs.dev"
     }
   ]
