@@ -3,7 +3,7 @@ import Section from "@/components/section.astro"
 import {basics} from "@cv/db_es.json"
 import { Image } from 'astro:assets';
 
-const {name, label, email, image, location, profiles} = basics
+const {name, phone, label, email, image, location, profiles} = basics
 
 const perfiles = profiles.map(p => p.network);
 
@@ -13,16 +13,20 @@ const perfiles = profiles.map(p => p.network);
         <h1>{name}</h1>
         <div class="container">
             <div class="user_data">
-                <p>
-                    {label}<br>
-                    {location.city}, {location.region}<br>
+                    <h4>{label}</h4>
+                    <p>
+                        Mail: <a href={`mailto:${email}`}>{email}</a><br>
+                        Phone: {phone}
+                    </p>
+                    <a href="https://maps.app.goo.gl/TkMocBoLfwgMB1M59">{location.city}, {location.region}</a><br>
+                    <br>
                 </p>
                     <span>
                         {email} {perfiles.join(' ')}
                     </span>
             </div>
             <figure>
-                <Image src={image} alt="Un pájaro." width="150" height="150" class="imagen" loading="eager"/>
+                <Image src={image} alt={name} width="150" height="150" class="imagen" loading="eager"/>
             </figure>
         </div>
 
@@ -34,6 +38,23 @@ const perfiles = profiles.map(p => p.network);
         margin: 0;
         font-size: 28px;
     }
+
+    h4{
+        margin-top: 5px;
+        margin-bottom: 0px;
+    }
+    p{
+        margin-top: 2px;
+    }
+
+    a{
+        color: #444;
+    }
+
+    a:hover{
+        color: #222;
+    }
+
     .container{
         display: flex;
         flex-direction: row;

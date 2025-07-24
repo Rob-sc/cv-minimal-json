@@ -1,7 +1,7 @@
 {
   "basics": {
     "name": "Roberto J. Sánchez Camacho",
-    "label": "Full Stack Developer",
+    "label": "Full stack Developer and AI Developer",
     "image": "https://avatars.githubusercontent.com/u/158120344?v=4",
     "email": "roberto_scr@outlook.es",
     "phone": "+34 666111666",
@@ -10,7 +10,7 @@
     "location": {
       "url_maps": "",
       "postalCode": "46017",
-      "city": "Valencia",
+      "city": "Valencia, Valencia",
       "countryCode": "ES",
       "region": "España"
     },
@@ -35,7 +35,7 @@
   "work": [
     {
       "name": "Atos Iberia",
-      "position": "Full stack Developer and IA developer",
+      "position": "Full stack Developer and AI developer",
       "startDate": "2024",
       "endDate": "Actualmente",
       "summary": "Automatización de servicios y desarrollo de aplicaciones para solucionar distintas necesidades de los clientes. Desarrollar plataformas para la gestión de usuarios, tickets y stock, desarrollar plataforma de monitorización para equipos y servicios.",
