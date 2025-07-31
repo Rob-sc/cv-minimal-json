@@ -6,6 +6,7 @@
     "email": "roberto_scr@outlook.es",
     "phone": "+34 666111666",
     "url": "",
+    "Age": "29",
     "summary": "Soy Roberto, desarrollador apasionado por el desarrollo web y las tecnologías emergentes. Disfruto creando soluciones digitales innovadoras que mejoran la experiencia del usuario y optimizan los procesos. Actualmente, estoy profundizando en áreas como la inteligencia artificial, nuevos frameworks, DevOps y arquitectura de software escalable.",
     "location": {
       "url_maps": "",
@@ -104,7 +105,7 @@
     "summary": "Description…"
   }],
   "skills": {
-    "hard": ["HTML","CSS","JavaScript","Tailwind","TypeScript","Node","MySQL","Git","GitHub","Next.js","React","Angular","Astro","API-REST"],
+    "hard": ["HTML5","CSS3","JavaScript","Tailwind","TypeScript","NodeJS", "Express.js","MySQL","Git","GitHub","Next.js","React","Angular","Astro","API-REST","MongoDB","PostgreSQL","Flask", "Azure","Microsoft 365", "Jira", "Slack"],
     "soft": ["Resilencia","Trabajo en equipo", "Disciplica","Comunicación","Gestion Emocional", "Perfecionista","Creativo","Autodidacta"]
   },
   "languages": [
