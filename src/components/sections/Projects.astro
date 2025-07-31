@@ -38,10 +38,19 @@ import {projects} from "@cv/db_es.json"
     
     .project{
         border: solid 1px gray;
-        border-radius: 10px;
+        border-radius: 5px;
         padding: 5px;
         max-width: 30%;
         transition: box-shadow 0.2s ease;
+    }
+    
+    .project:hover{
+        box-shadow: 0 0 0 1px gray;
+        text-decoration:underline
+    }
+
+    .project h4,p{
+        margin-left: 10px;
     }
 
     ul {
@@ -59,15 +68,6 @@ import {projects} from "@cv/db_es.json"
         border-radius: 5px;
         font-size: 12px;
         font-weight: 600;
-    }
-
-    .project:hover{
-        box-shadow: 0 0 0 1px gray;
-        text-decoration:underline
-    }
-
-    .project h4,p{
-        margin-left: 10px;
     }
     
 </style>

@@ -4,7 +4,8 @@ import {basics} from "@cv/db_es.json"
 import { Image } from 'astro:assets';
 import X from "@/assets/icons/X.astro" 
 import Linkedin from "@/assets/icons/Linkedin.astro" 
-import Github from "@/assets/icons/Github.astro" 
+import Github from "@/assets/icons/Github.astro"
+import Mail from "@/assets/icons/Mail.astro"
 
 const {name, phone, label, email, image, location, profiles} = basics
 
@@ -25,7 +26,10 @@ const perfiles = profiles.map(p => p.network);
                     <br>
                 </p>
                     <span>
-                        {email} {perfiles.join(' ')}
+                        <a class="rrss" href="http://x.com"><Mail/></a>
+                        <a class="rrss" href="http://x.com"><X/></a>
+                        <a class="rrss" href="http://x.com"><Linkedin/></a>
+                        <a class="rrss" href="http://x.com"><Github/></a>
                     </span>
             </div>
             <figure>
@@ -62,5 +66,13 @@ const perfiles = profiles.map(p => p.network);
         display: flex;
         flex-direction: row;
         justify-content: space-between;
+    }
+    a.rrss{
+        display: inline-flex;
+        padding: 4px;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid gray;
+        border-radius: 5px;
     }
 </style>
