@@ -2,24 +2,24 @@
 import Section from "@/components/section.astro"
 import {skills} from "@cv/db_es.json"
 
-const perfiles = skills.map(s => s.name);
-
+const hardskills = skills.hard.map(s => s);
+const softskills = skills.soft.map(s => s);
 ---
 
 <Section title="Habilidades">
     
         <h3>Hardskills</h3>
             <ul>
-                {skills.map((s)=>
-                    <li class="dark">{s.name}</li>
+                {hardskills.map((s)=>
+                    <li class="dark">{s}</li>
                 )
                 }
             </ul>
 
         <h3>Softskills</h3>
             <ul>
-                {skills.map((s)=>
-                    <li>{s.name}</li>
+                {softskills.map((s)=>
+                    <li>{s}</li>
                 )
                 }
             </ul>

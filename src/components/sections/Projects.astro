@@ -41,6 +41,7 @@ import {projects} from "@cv/db_es.json"
         border-radius: 10px;
         padding: 5px;
         max-width: 30%;
+        transition: box-shadow 0.2s ease;
     }
 
     ul {
@@ -61,7 +62,7 @@ import {projects} from "@cv/db_es.json"
     }
 
     .project:hover{
-        background-color: rgba(255, 255, 255, 0.13);
+        box-shadow: 0 0 0 1px gray;
         text-decoration:underline
     }
 

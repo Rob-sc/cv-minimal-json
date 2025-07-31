@@ -6,7 +6,7 @@
     "email": "roberto_scr@outlook.es",
     "phone": "+34 666111666",
     "url": "",
-    "summary": "Soy Roberto J. Sánchez Camacho, desarrollador apasionado por el desarrollo web y las tecnologías emergentes. Disfruto creando soluciones digitales innovadoras que mejoran la experiencia del usuario y optimizan procesos. Actualmente, estoy profundizando en áreas como la inteligencia artificial, los frameworks modernos, las prácticas DevOps y la arquitectura de software escalable.",
+    "summary": "Soy Roberto J. Sánchez Camacho, desarrollador apasionado por el desarrollo web y las tecnologías emergentes. Disfruto creando soluciones digitales innovadoras que mejoran la experiencia del usuario y optimizan procesos. Actualmente, estoy profundizando en áreas como la inteligencia artificial, nuevos frameworks, DevOps y arquitectura de software escalable.",
     "location": {
       "url_maps": "",
       "postalCode": "46017",
@@ -103,85 +103,10 @@
     "url": "https://publication.com",
     "summary": "Description…"
   }],
-  "skills": [
-    {
-      "name": "HTML",
-      "level": "Master",
-      "keywords": [
-        "Desarrollo Web", "Frontend"
-      ]
-    },
-    {
-      "name": "CSS",
-      "level": "Master",
-      "keywords": [
-        "Desarrollo Web", "Frontend", "Diseño Responsive"
-      ]
-    },
-    {
-      "name": "JavaScript",
-      "level": "Master",
-      "keywords": [
-        "Desarrollo Web", "Frontend", "Backend", "Fullstack"
-      ]
-    },
-    {
-      "name": "Tailwind",
-      "level": "Avanzado",
-      "keywords": [
-        "Desarrollo Web", "Frontend", "CSS Framework", "Diseño Responsive"
-      ]
-    },
-    {
-      "name": "TypeScript",
-      "level": "Avanzado",
-      "keywords": [
-        "Desarrollo Web", "Frontend", "Backend", "JavaScript Superset"
-      ]
-    },
-    {
-      "name": "Node",
-      "level": "Avanzado",
-      "keywords": [
-        "Desarrollo Web", "Backend", "JavaScript", "Servidor"
-      ]
-    },
-    {
-      "name": "MySQL",
-      "level": "Avanzado",
-      "keywords": [
-        "Bases de Datos", "SQL", "Almacenamiento de Datos", "Backend"
-      ]
-    },
-    {
-      "name": "Git",
-      "level": "Avanzado",
-      "keywords": [
-        "Control de Versiones", "Colaboración", "Código Fuente"
-      ]
-    },
-    {
-      "name": "GitHub",
-      "level": "Avanzado",
-      "keywords": [
-        "Control de Versiones", "Colaboración", "Código Fuente", "Git"
-      ]
-    },
-    {
-      "name": "Next.js",
-      "level": "Avanzado",
-      "keywords": [
-        "Desarrollo Web", "Frontend", "React Framework", "SSR", "Static Generation"
-      ]
-    },
-    {
-      "name": "React",
-      "level": "Avanzado",
-      "keywords": [
-        "Desarrollo Web", "Frontend", "JavaScript Library", "UI"
-      ]
-    }
-  ],
+  "skills": {
+    "hard": ["HTML","CSS","JavaScript","Tailwind","TypeScript","Node","MySQL","Git","GitHub","Next.js","React","Angular","Astro","API-REST"],
+    "soft": ["Resilencia","Trabajo en equipo", "Disciplica","Comunicación","Gestion Emocional", "Perfecionista","Creativo","Autodidacta"]
+  },
   "languages": [
     {
       "language": "Spanish",
@@ -225,6 +150,16 @@
       "description": "Retos de programación en JavaScript para cada día de diciembre hasta Navidad",
       "skills": ["JavaScript", "JSON", "CSS3","React"],
       "url": "https://adventjs.dev"
+    },
+    {
+      "name": "Taktak",
+      "isActive": true,
+      "description": "Juego web para mejorar tus habilidades de mecanografía",
+      "skills": ["JavaScript", "JSON", "CSS3","Html5"],
+      "url": "https://adventjs.dev"
     }
   ]
 }
+
+  
+
