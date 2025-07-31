@@ -6,6 +6,7 @@ import X from "@/assets/icons/X.astro"
 import Linkedin from "@/assets/icons/Linkedin.astro" 
 import Github from "@/assets/icons/Github.astro"
 import Mail from "@/assets/icons/Mail.astro"
+import World from "@/assets/icons/Location.astro";
 
 const {name, phone, label, email, image, location, profiles} = basics
 
@@ -22,14 +23,14 @@ const perfiles = profiles.map(p => p.network);
                         Mail: <a href={`mailto:${email}`}>{email}</a><br>
                         Phone: {phone}
                     </p>
-                    <a href="https://maps.app.goo.gl/TkMocBoLfwgMB1M59">{location.city}, {location.region}</a><br>
+                    <a href="https://maps.app.goo.gl/TkMocBoLfwgMB1M59"><World /> {location.city}, {location.region}</a><br>
                     <br>
                 </p>
                     <span>
-                        <a class="rrss" href="http://x.com"><Mail/></a>
+                        <a class="rrss" href={`mailto:${email}`}><Mail/></a>
                         <a class="rrss" href="http://x.com"><X/></a>
                         <a class="rrss" href="http://x.com"><Linkedin/></a>
-                        <a class="rrss" href="http://x.com"><Github/></a>
+                        <a class="rrss" href="https://github.com/Rob-sc"><Github/></a>
                     </span>
             </div>
             <figure>
@@ -69,10 +70,17 @@ const perfiles = profiles.map(p => p.network);
     }
     a.rrss{
         display: inline-flex;
+        width: 18px;
+        height: 18px;
         padding: 4px;
         justify-content: center;
         align-items: center;
         border: 1px solid gray;
         border-radius: 5px;
+        transition: box-shadow 0.2s ease;
+    }
+
+    a.rrss:hover{
+        box-shadow: 0 0 0 1px black;
     }
 </style>
