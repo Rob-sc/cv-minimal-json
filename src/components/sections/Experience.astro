@@ -1,7 +1,6 @@
 ---
 import Section from "@/components/section.astro"
 import {work} from "@cv/db_es.json"
-import {skills} from "@cv/db_es.json"
 
 ---
 
@@ -14,17 +13,14 @@ import {skills} from "@cv/db_es.json"
                     <span>
                         <h4>{name}</h4>
                         <ul>
-                            <li>Node.js</li>
-                            <li>OpenAI</li>
-                            <li>API REST</li>
-                            <li>Flask</li>
-                            <li>Python </li>
+                            {keywords.map((k)=>{
+                                return <li>{k}</li>
+                            })}
                         </ul>
                         <p>{startDate.split("-")[0]} - {endDate}</p>
                     </span>
                 <h5>{position}</h5>
                 <p>{summary}</p>
-                <p>{highlights}</p>
                 </div>
             )
         }

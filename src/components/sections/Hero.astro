@@ -11,15 +11,17 @@ import World from "@/assets/icons/Location.astro";
 const {name, Age, phone, label, email, image, location, profiles} = basics
 
 const perfiles = profiles.map(p => p.network);
-
+const barrer = "-".repeat(label.length);
 ---
 
 <Section>
         <h1>{name}</h1>
         <div class="container">
             <div class="user_data">
-                    <h4>{label}</h4><br>
+                    <h4>{label}</h4>
                     <p>
+                        {barrer}
+                        <br>
                         <b>Edad:</b> {Age} <br>
                         <b>Mail:</b>   {email}<br>
                         <b>Phone:</b> {phone}

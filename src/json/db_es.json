@@ -41,7 +41,7 @@
       "endDate": "Actualmente",
       "summary": "Automatización de servicios y desarrollo de aplicaciones para solucionar distintas necesidades de los clientes. Desarrollar plataformas para la gestión de usuarios, tickets y stock, desarrollar plataforma de monitorización para equipos y servicios.",
       "keywords": [
-        "Node.js","React","Angular","OpenAI","API REST","Flask","Python"
+        "Node.js","Angular","OpenAI","Flask","Python"
       ],
       "highlights": [
         "Conseguí reducir el tiempo de varias gestiones diarias de 3 horas a 20 minutos."
@@ -53,6 +53,9 @@
       "startDate": "2023",
       "endDate": "2024",
       "summary": "Crear, perfeccionar y mantener aplicaciones web y multiplataforma que resuelvan desafíos complejos y automaticen tareas, contribuyendo a una mayor eficiencia operativa y optimización de procesos.",
+      "keywords": [
+        "Node.js","React", "SQL", "Typescript", "MongoDB"
+      ],
       "highlights": [
         ""
       ]
