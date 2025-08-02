@@ -29,21 +29,24 @@ import {projects} from "@cv/db_es.json"
 </Section>
 
 <style>
-    .projects{
+    .projects {
         display: flex;
         flex-wrap: wrap;
-        width: auto;
+        width: 100%;
         gap: 10px;
+        box-sizing: border-box;
+        justify-content: space-between; /* Asegura separación uniforme */
     }
-    
-    .project{
+
+    .project {
         border: solid 1px gray;
         border-radius: 5px;
         padding: 5px;
-        max-width: 30%;
+        flex: 1 1 calc(33.33% - 10px); /* 3 columnas menos el gap */
+        box-sizing: border-box;
         transition: box-shadow 0.2s ease;
     }
-    
+
     .project:hover{
         box-shadow: 0 0 0 1px black;
         text-decoration:underline
@@ -69,5 +72,13 @@ import {projects} from "@cv/db_es.json"
         font-size: 12px;
         font-weight: 600;
     }
-    
+
+
+        /* Cuando el ancho es menor de 768px (tablets) */
+    @media (max-width: 600px) {
+        .project {
+            flex: 1 1 40%;
+        }
+    }
+
 </style>
